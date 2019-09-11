@@ -55,6 +55,10 @@ To lint the code base ::
 
     tox -e lint
 
+Prereqs
+===========
+- AWS bucket population requires AWS Cost and Usage Reporting to be setup with proper Buckets, Policies, and Roles before population by nise.
+
 Usage
 ===========
 nise is a command line tool. Currently only accepting a limited number of arguments:
